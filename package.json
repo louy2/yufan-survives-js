@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "build": "webpack",
+    "start": "webpack-dev-server --config webpack.development.js --devtool eval-source --progress --colors --hot --inline --history-api-fallback --content-base build",
     "test": "node app.js"
   },
   "keywords": [
@@ -18,6 +19,7 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "node-libs-browser": "^0.5.2",
-    "webpack": "^1.10.1"
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
   }
 }

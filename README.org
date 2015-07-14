@@ -4,9 +4,21 @@ This is Yufan's playground for the book [[http://survivejs.com][/Survive JS/]].
 A kanban app is created in the process.
 
 ** Getting Started
-*** Set up [[https://webpack.github.io/][Webpack]]
 1. =npm init=
 2. =npm i webpack node-libs-browser --save-dev=
 3. set up -webpack.config.js-
 4. set up entry point -build/index.html-
 5. set up =npm build= to =webpack=
+
+** Developing With Webpack
+1. =npm i webpack-dev-server --save-dev=
+2. set up =npm start= to =webpack-dev-server= with:
+   1. default listen to -localhost:8000-
+   2. =--config webpack.development.js= config file
+   3. =--devtool eval-source= report error by file and line
+   4. =--progress= show bundling progress
+   5. =--colors= colored terminal info
+   6. =--hot= hot module loading
+   7. =--inline= embed -webpack-dev-server- runtime in bundle
+   8. =--history-api-fallback= HTML5 History API routes
+   9. =--content-base build= reuse -index.html- from build (temporary)
