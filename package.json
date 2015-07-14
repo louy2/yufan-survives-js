@@ -1,0 +1,22 @@
+{
+  "name": "yufan-survives-js",
+  "version": "0.0.1",
+  "description": "Yufan's playground for the book [[http://survivejs.com][/Survive JS/]]",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "javascript",
+    "reactjs",
+    "webpack",
+    "flux",
+    "tutorial"
+  ],
+  "author": "Yufan Lou",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.10.1"
+  }
+}
