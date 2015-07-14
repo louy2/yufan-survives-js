@@ -1,0 +1,10 @@
+* Yufan Survives JS
+This is Yufan's playground for the book [[http://survivejs.com][/Survive JS/]].
+
+A kanban app is created in the process.
+
+** Getting Started
+*** Set up [[https://webpack.github.io/][Webpack]]
+1. =npm init=
+2. =npm i webpack node-libs-browser --save-dev=
+3. set up -webpack.config.js-
