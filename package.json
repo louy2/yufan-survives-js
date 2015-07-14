@@ -16,7 +16,7 @@
     "tutorial"
   ],
   "author": "Yufan Lou",
-  "license": "GPL-3.0",
+  "license": "ISC",
   "devDependencies": {
     "node-libs-browser": "^0.5.2",
     "webpack": "^1.10.1",
