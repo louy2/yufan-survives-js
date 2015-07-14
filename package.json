@@ -4,6 +4,7 @@
   "description": "Yufan's playground for the book [[http://survivejs.com][/Survive JS/]]",
   "main": "app.js",
   "scripts": {
+    "build": "webpack",
     "test": "node app.js"
   },
   "keywords": [
