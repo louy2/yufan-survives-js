@@ -4,8 +4,8 @@
   "description": "Yufan's playground for the book [[http://survivejs.com][/Survive JS/]]",
   "main": "app.js",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server --config webpack.development.js --devtool eval-source --progress --colors --hot --inline --history-api-fallback --content-base build",
+    "build": "set TARGET=build&& webpack",
+    "start": "set TARGET=dev&& webpack-dev-server --devtool eval --progress --colors --hot --inline --history-api-fallback --content-base build",
     "test": "node app.js"
   },
   "keywords": [
@@ -22,6 +22,7 @@
     "node-libs-browser": "^0.5.2",
     "style-loader": "^0.12.3",
     "webpack": "^1.10.1",
-    "webpack-dev-server": "^1.10.1"
+    "webpack-dev-server": "^1.10.1",
+    "webpack-merge": "^0.1.2"
   }
 }

@@ -25,6 +25,10 @@ A kanban app is created in the process.
 3. add css liveview
    1. =npm i css-loader style-loader --save-dev=
    2. add them to =modules.loaders= in =webpack.development.js=
+4. share common config
+   1. =npm i webpack-merge --save-dev=
+   2. modulize =webpack.config.js=
+   3. add env var to =npm build= & =npm start=
 
 * ISC License
 Copyright (c) 2015, Yufan Lou <loganlyf@gmail.com>
