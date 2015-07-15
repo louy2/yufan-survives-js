@@ -13,7 +13,7 @@ A kanban app is created in the process.
 ** Developing With Webpack
 1. =npm i webpack-dev-server --save-dev=
 2. set up =npm start= to =webpack-dev-server= with:
-   1. default listen to =localhost:8000=
+   1. default listen to =localhost:8080=
    2. =--config webpack.development.js= config file
    3. =--devtool eval-source= report error by file and line
    4. =--progress= show bundling progress
