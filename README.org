@@ -22,6 +22,9 @@ A kanban app is created in the process.
    7. =--inline= embed =webpack-dev-server= runtime in bundle
    8. =--history-api-fallback= HTML5 History API routes
    9. =--content-base build= reuse =index.html= from build (temporary)
+3. add css liveview
+   1. =npm i css-loader style-loader --save-dev=
+   2. add them to =modules.loaders= in =webpack.development.js=
 
 * ISC License
 Copyright (c) 2015, Yufan Lou <loganlyf@gmail.com>
