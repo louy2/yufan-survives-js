@@ -1,4 +1,5 @@
 var path = require('path');
+var HTMLWebpackPlugin = require('html-webpack-plugin');
 var merge = require('webpack-merge');
 
 var TARGET = process.env.TARGET;

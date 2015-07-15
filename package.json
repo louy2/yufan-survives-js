@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "build": "set TARGET=build&& webpack",
-    "start": "set TARGET=dev&& webpack-dev-server --devtool eval --progress --colors --hot --inline --history-api-fallback --content-base build",
+    "start": "set TARGET=dev&& webpack-dev-server --devtool eval --progress --colors --hot --inline --history-api-fallback",
     "test": "node app.js"
   },
   "keywords": [
