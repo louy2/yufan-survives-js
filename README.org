@@ -9,7 +9,6 @@ A kanban app is created in the process.
 3. set up =webpack.config.js=
 4. set up entry point =build/index.html=
 5. set up =npm build= to =webpack=
-
 ** Developing With Webpack
 1. =npm i webpack-dev-server --save-dev=
 2. set up =npm start= to =webpack-dev-server= with:
@@ -29,6 +28,8 @@ A kanban app is created in the process.
    1. =npm i webpack-merge --save-dev=
    2. modulize =webpack.config.js=
    3. add env var to =npm build= & =npm start=
+5. dynamic html
+   1. =npm i html-webpack-plugin --save-dev=
 
 * ISC License
 Copyright (c) 2015, Yufan Lou <loganlyf@gmail.com>

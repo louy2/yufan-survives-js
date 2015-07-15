@@ -17,7 +17,12 @@ var common = {
                 loaders: ['style', 'css']
             }
         ]
-    }
+    },
+    plugins: [
+        new HTMLWebpackPlugin({
+            title: 'Kanban app'
+        }),
+    ]
 };
 
 if (TARGET === 'build') {
