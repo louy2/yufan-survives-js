@@ -31,6 +31,12 @@ A kanban app is created in the process.
 5. dynamic html
    1. =npm i html-webpack-plugin --save-dev=
 
+** Webpack & React.js
+1. set up =babel-loader=
+   1. =npm i babel-core babel-loader --save-dev=
+   2. add to the loaders to =common.module.loaders= in =webpack.config.js=
+      1. test for both =.js= and =.jsx=
+      2. enable feature of stage 1 in babel
 * ISC License
 Copyright (c) 2015, Yufan Lou <loganlyf@gmail.com>
 
