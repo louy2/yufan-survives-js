@@ -1,6 +1,7 @@
 var path = require('path');
 var HTMLWebpackPlugin = require('html-webpack-plugin');
 var merge = require('webpack-merge');
+var webpack = require('webpack');
 
 var TARGET = process.env.TARGET;
 var ROOT_PATH = path.resolve(__dirname);
@@ -32,6 +33,7 @@ var common = {
         new HTMLWebpackPlugin({
             title: 'Kanban app'
         }),
+        new webpack.optimize.UglifyJsPlugin({})
     ]
 };
 
