@@ -37,6 +37,8 @@ A kanban app is created in the process.
    2. add to the loaders to =common.module.loaders= in =webpack.config.js=
       1. test for both =.js= and =.jsx=
       2. enable feature of stage 1 in babel
+2. =npm i react --save=
+   1. set up =app/main.jsx=, =app/components/*.jsx=
 * ISC License
 Copyright (c) 2015, Yufan Lou <loganlyf@gmail.com>
 
