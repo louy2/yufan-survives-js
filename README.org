@@ -19,9 +19,9 @@ A kanban app is created in the process.
    4. =--progress= show bundling progress
    5. =--colors= colored terminal info
    6. =--hot= hot module loading
-   7. =--inline= embed -webpack-dev-server- runtime in bundle
+   7. =--inline= embed =webpack-dev-server= runtime in bundle
    8. =--history-api-fallback= HTML5 History API routes
-   9. =--content-base build= reuse -index.html- from build (temporary)
+   9. =--content-base build= reuse =index.html= from build (temporary)
 
 * ISC License
 Copyright (c) 2015, Yufan Lou <loganlyf@gmail.com>
