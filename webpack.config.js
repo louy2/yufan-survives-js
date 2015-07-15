@@ -30,10 +30,19 @@ var common = {
         ]
     },
     plugins: [
+        new webpack.DefinePlugin({
+            'process.env': {
+                'NODE_ENV': JSON.stringify('production')
+            }
+        }),
         new HTMLWebpackPlugin({
             title: 'Kanban app'
         }),
-        new webpack.optimize.UglifyJsPlugin({})
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false
+            }
+        })
     ]
 };
 
