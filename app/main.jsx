@@ -6,10 +6,10 @@ import App from './components/App';
 main();
 
 function main() {
-    var app = document.createElement('div');
-    document.body.appendChild(app);
+  var app = document.createElement('div');
+  document.body.appendChild(app);
 
-    React.render(<App />, app);
+  React.render(<App />, app);
 }
 
 document.body.appendChild(app);
