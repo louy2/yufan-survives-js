@@ -1,8 +1,20 @@
 * Yufan Survives JS
+:PROPERTIES:
+:CUSTOM_ID: yufan-survives-js
+
 This is Yufan's playground for the book [[http://survivejs.com][/Survive JS/]].
 
 A kanban app is created in the process.
 
+* Table Of Contents                                :TOC@4:
+ - [[#yufan-survives-js][Yufan Survives JS]]
+ - [[#process][Process]]
+     - [[#getting-started][Getting Started]]
+     - [[#developing-with-webpack][Developing With Webpack]]
+     - [[#webpack--reactjs][Webpack & React.js]]
+ - [[#isc-license][ISC License]]
+
+* Process
 ** Getting Started
 1. =npm init=
 2. =npm i webpack node-libs-browser --save-dev=
@@ -43,6 +55,8 @@ A kanban app is created in the process.
    1. disable warnings of UglifyJsPlugin
 
 * ISC License
+:PROPERTIES:
+:CUSTOM_ID: isc-license
 Copyright (c) 2015, Yufan Lou <loganlyf@gmail.com>
 
 Permission to use, copy, modify, and/or distribute this software for any
