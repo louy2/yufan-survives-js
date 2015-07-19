@@ -1,6 +1,4 @@
 * Yufan Survives JS
-:PROPERTIES:
-:CUSTOM_ID: yufan-survives-js
 
 This is Yufan's playground for the book [[http://survivejs.com][/Survive JS/]].
 
@@ -22,6 +20,8 @@ A kanban app is created in the process.
 4. set up entry point =build/index.html=
 5. set up =npm build= to =webpack=
 ** Developing With Webpack
+:PROPERTIES:
+:CUSTOM_ID: developing-with-webpack
 1. =npm i webpack-dev-server --save-dev=
 2. set up =npm start= to =webpack-dev-server= with:
    1. default listen to =localhost:8080=
