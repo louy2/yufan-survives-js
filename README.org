@@ -22,6 +22,7 @@ A kanban app is created in the process.
 ** Developing With Webpack
 :PROPERTIES:
 :CUSTOM_ID: developing-with-webpack
+:END:
 1. =npm i webpack-dev-server --save-dev=
 2. set up =npm start= to =webpack-dev-server= with:
    1. default listen to =localhost:8080=
@@ -57,6 +58,7 @@ A kanban app is created in the process.
 * ISC License
 :PROPERTIES:
 :CUSTOM_ID: isc-license
+:END:
 Copyright (c) 2015, Yufan Lou <loganlyf@gmail.com>
 
 Permission to use, copy, modify, and/or distribute this software for any
